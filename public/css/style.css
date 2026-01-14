@@ -1,0 +1,32 @@
+#logo{
+    height: 30px;
+    min-height: auto;
+}
+#forbidden h1{
+    font-size: 100px;
+}
+#forbidden p{
+    font-size: 20px;
+}
+
+#carouselResto .carousel-image {
+    object-fit: cover;
+    object-position: center;
+    overflow: hidden;
+    height: 80vh;
+
+}
+.carousel-caption{
+    top:50%;
+    transform: translateY(-50%);
+}
+#carouselResto .carousel-logo{
+    max-height: 300px;
+    min-height: auto;
+    min-width: auto;
+}
+#carouselResto .carousel-logo-main{
+    max-height: 200px;
+    min-height: auto;
+    min-width: auto;
+}

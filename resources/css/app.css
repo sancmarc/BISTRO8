@@ -1,0 +1,86 @@
+#logo{
+    height: 30px;
+    min-height: auto;
+}
+#forbidden h1{
+    font-size: 100px;
+}
+#forbidden p{
+    font-size: 20px;
+}
+
+#carouselResto .carousel-image {
+    object-fit: cover;
+    object-position: center;
+    overflow: hidden;
+    height: 80vh;
+
+}
+.carousel-caption{
+    top:50%;
+    transform: translateY(-50%);
+}
+#carouselResto .carousel-logo{
+    max-height: 300px;
+    min-height: auto;
+    min-width: auto;
+}
+#carouselResto .carousel-logo-main{
+    max-height: 200px;
+    min-height: auto;
+    min-width: auto;
+}
+@media screen and (max-width: 480px) {
+    #carouselResto .carousel-logo{
+    max-height: 150px;
+    min-height: auto;
+    min-width: auto;
+}
+    #carouselResto .carousel-logo-main{
+    max-height: 100px;
+    min-height: auto;
+    min-width: auto;
+}
+}
+
+.fixed-top {
+    transition: top 0.4s;
+}
+
+.bg-dirty-white {
+    background: #f2f2f5;
+}
+
+h2 {
+    font-weight: bold;
+}
+
+.title-font {
+    font-family: 'vladimir script';
+}
+
+.title-size {
+    font-size: 82px;
+}
+
+@media screen and (min-width: 480px) {
+    .animation {
+        opacity: 0;
+        transform: translateX(-300px);
+        transition: all 0.5s ease-out;
+        transition-delay: 0.4s;
+
+    }
+
+    .scroll-animation {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+.img-tumb {
+    height: 300px;
+    min-height: 100%;
+    width: 300px;
+    object-fit: cover;
+}
